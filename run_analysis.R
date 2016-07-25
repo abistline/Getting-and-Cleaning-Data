@@ -10,6 +10,7 @@ if (!file.exists("data/UCI HAR Dataset")) {
 }
 
 library(dplyr)
+library(reshape2)
 
 # Summon the "features" variable into a 561 x 1 data frame.  Build a vector for
 # quickly selecting only the features variables that corresponds to mean and 
